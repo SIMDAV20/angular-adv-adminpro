@@ -26,7 +26,6 @@ export class ModalImagenComponent implements OnInit {
   cerrarModal() {
     this.modalImagenService.cerrarModal();
     this.imgTemp = null;
-    
   }
 
   cambiarImgen( file: File ) {
