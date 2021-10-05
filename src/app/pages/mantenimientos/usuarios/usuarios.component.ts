@@ -41,9 +41,8 @@ export class UsuariosComponent implements OnInit, OnDestroy {
         delay(100)
       )
       .subscribe( img => {
-        console.log(img);
         this.cargarUsuarios()
-      }); 
+      });
   }
 
   cargarUsuarios() {
